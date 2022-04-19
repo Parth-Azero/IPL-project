@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Barlow+Condensed:wght@300&family=Kolker+Brush&family=Open+Sans:ital@1&family=Poppins:wght@200&family=Readex+Pro:wght@300&family=Smooch+Sans:wght@300&display=swap");
+* {
+  font-family: Smooch Sans;
+  font-size: 17px;
+  font-weight: bold;
+}
+#create {
+  background-color: black;
+  color: azure;
+  transition: all 0.35s;
+}
+#create:hover {
+  transform: scale(1.07, 1.07);
+}
+#create:active {
+  opacity: 0.5;
+}
+.container {
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+}

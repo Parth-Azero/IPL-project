@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Barlow+Condensed:wght@300&family=Kolker+Brush&family=Open+Sans:ital@1&family=Poppins:wght@200&family=Readex+Pro:wght@300&family=Smooch+Sans:wght@300&display=swap");
+* {
+  font-family: Smooch Sans;
+}
+.cdbody {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, red, yellow);
+  text-decoration: none;
+}
+.cdbody:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody:active {
+  opacity: 0.5;
+}
+.cdbody2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(0, 38, 255), rgb(255, 40, 40));
+  text-decoration: none;
+}
+.cdbody2:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody2:active {
+  opacity: 0.5;
+}
+.cdbody3 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(1, 10, 61), rgb(0, 119, 255));
+  text-decoration: none;
+}
+.cdbody3:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody3:active {
+  opacity: 0.5;
+}
+.cdbody4 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(255, 217, 0), rgb(71, 1, 128));
+  text-decoration: none;
+}
+.cdbody4:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody4:active {
+  opacity: 0.5;
+}
+.trophiesKR {
+  display: flex;
+  flex-direction: row;
+  margin-left: 43px;
+  border: 1px solid transparent;
+  margin-right: 43px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  background-color: azure;
+}
+.cdbody5 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(
+    -180deg,
+    rgb(21, 8, 211),
+    rgb(198, 177, 255)
+  );
+  text-decoration: none;
+}
+.cdbody5:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody5:active {
+  opacity: 0.5;
+}
+.cdbody6 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(2, 255, 78), rgb(2, 141, 255));
+  text-decoration: none;
+}
+.cdbody6:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody6:active {
+  opacity: 0.5;
+}
+.trophiesMI {
+  display: flex;
+  flex-direction: row;
+  margin-left: 13px;
+  border: 1px solid transparent;
+  margin-right: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  background-color: azure;
+}
+.cdbody7 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(255, 2, 2), rgb(121, 2, 2));
+  text-decoration: none;
+}
+.cdbody7:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody7:active {
+  opacity: 0.5;
+}
+.cdbody8 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(255, 2, 255), rgb(94, 3, 64));
+  text-decoration: none;
+}
+.cdbody8:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody8:active {
+  opacity: 0.5;
+}
+.trophiesRR {
+  display: flex;
+  flex-direction: row;
+  margin-left: 53px;
+  border: 1px solid transparent;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  background-color: azure;
+}
+.cdbody9 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(-180deg, rgb(17, 17, 17), rgb(71, 71, 71));
+  text-decoration: none;
+}
+.cdbody9:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody9:active {
+  opacity: 0.5;
+}
+.cdbody10 {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #adadad;
+  transition: transform 0.35s, opacity 0.15s;
+  cursor: pointer;
+  background-image: linear-gradient(
+    -180deg,
+    rgb(255, 102, 0),
+    rgb(255, 0, 242)
+  );
+  text-decoration: none;
+}
+.cdbody10:hover {
+  transform: scale(1.1, 1.1);
+}
+.cdbody10:active {
+  opacity: 0.5;
+}
+.trophiesSH {
+  display: flex;
+  flex-direction: row;
+  margin-left: 53px;
+  border: 1px solid transparent;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  background-color: azure;
+}
+.csk_logo {
+  height: 80px;
+  border-radius: 200px;
+  margin-left: 55px;
+  margin-top: 10px;
+  border: 5px solid black;
+  width: 80px;
+}
+.trophies {
+  display: flex;
+  flex-direction: row;
+  margin-left: 23px;
+  border: 1px solid transparent;
+  margin-right: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  background-color: azure;
+}
+.Trophy {
+  margin-top: 0px;
+  height: 30px;
+  border-radius: 190px;
+  object-fit: cover;
+  object-position: center;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+}
+h3 {
+  text-align: center;
+  color: azure;
+}
+.stadium {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: azure;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 223px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}

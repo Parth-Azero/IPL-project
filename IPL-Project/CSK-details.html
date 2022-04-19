@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="csk.css" />
+  </head>
+  <body id="demo">
+    <div id="demo"></div>
+    <script>
+      let csk = [
+        {
+          id: "0",
+          playername: "MS Dhoni",
+          price: "12.00cr",
+          isPlaying: false,
+          description: "wicket-keeper",
+        },
+        {
+          id: "1",
+          playername: "Deepak Chahar",
+          price: "9.00cr",
+          isPlaying: true,
+          description: "bowler",
+        },
+        {
+          id: "2",
+          playername: "Rajvindra Jadeja",
+          price: "3.40cr",
+          isPlaying: true,
+          description: "batsman",
+        },
+        {
+          id: "3",
+          playername: "Ruturaj Gaikwad",
+          price: "2.3cr",
+          isPlaying: true,
+          description: "all-rounder",
+        },
+        {
+          id: "4",
+          playername: "Shivam Dube",
+          price: "1.60cr",
+          isPlaying: true,
+          description: "all-rounder",
+        },
+        {
+          id: "5",
+          playername: "Mahesh Theeksana",
+          price: "4.70cr",
+          isPlaying: false,
+          description: "batsman",
+        },
+        {
+          id: "6",
+          playername: "Devon Conway",
+          price: "11.00cr",
+          isPlaying: true,
+          description: "batsman",
+        },
+        {
+          id: "7",
+          playername: "Moeen Ali",
+          price: "18.00cr",
+          isPlaying: true,
+          description: "all-rounder",
+        },
+        {
+          id: "8",
+          playername: "Adam Milne",
+          price: "1.00cr",
+          isPlaying: true,
+          description: "all-rounder",
+        },
+        {
+          id: "9",
+          playername: "Mukesh Choudary",
+          price: "6.00cr",
+          isPlaying: true,
+          description: "all-rounder",
+        },
+        {
+          id: "10",
+          playername: "Dwayne Pretorious",
+          price: "12.00cr",
+          isPlaying: true,
+          description: "bowler",
+        },
+      ];
+      let myString = JSON.stringify(csk);
+      for (var i = 0; i < csk.length; i++) {
+        const container = document.createElement("div");
+        let c = document.createElement("div");
+        c.innerText = csk[i].playername;
+        container.appendChild(c);
+        let a = document.createElement("p");
+        a.innerText = csk[i].price;
+        container.appendChild(a);
+        let b = document.createElement("p");
+        b.innerText = csk[i].isPlaying;
+        container.appendChild(b);
+        let d = document.createElement("p");
+        d.innerText = csk[i].description;
+        container.appendChild(d);
+        let demo = document.getElementById("demo");
+        demo.appendChild(container);
+      }
+    </script>
+  </body>
+</html>

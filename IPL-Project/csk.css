@@ -1,0 +1,22 @@
+#displayTeam {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  #displayTeam a {
+    background-color: red;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+  }
+  #displayTeam a h5 {
+    color: white;
+  }
+  #demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+  
